@@ -1,12 +1,12 @@
-# <center> Fast API Exercise </center> 
+# <center> Airflow Exercise </center> 
 ### Full Name: Aarón Martin Castillo Medina 
 ### Email: aaroncastillo329@gmail.com
 
 <br>
 
-The following project consists in the development of a system that creates a API REST.
+The following project consists in the installation of a simple Airflow environment and the implementation of a DAG.
 
-The tool used for API REST is Fast API (0.111.0) and Docker.
+By default, all DAG examples are disabled. 
 
 It's important to install Docker before this execution, whose instructions are not included in this README.
 
@@ -14,13 +14,9 @@ The project's structure is the following:
 
 ```
 .
-|-- app
-| ´-- app.py 
-| ´-- requirements.txt 
-|-- sources
-| `-- foo.txt
+|-- dags
+| `-- my_first_dag,py
 |-- Dockerfile
-|-- simulation_interactions.py
 
 ```
 
@@ -28,11 +24,8 @@ The project's structure is the following:
 
 I briefly explain each one of these elements: 
 
-* **app.py** - the file that contains the Fast Api server. 
-* **requirements.txt** - Python libraries that are required for the project. 
-* **foo.txt** - file required to maintain the sources folder. 
+* **my_first_dag,py** - the code that creates the dag. 
 * **Dockerfile** - file requested to initialize the server.
-* **simulation_interactions.py** - file created to emulate the actions from the user perspective (requests).
 
 <br>
 
